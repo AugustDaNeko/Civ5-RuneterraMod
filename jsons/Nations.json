@@ -1,38 +1,79 @@
 [
+	//Spectator
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Spectator",
+		"outerColor": [255,255,255],
+//		"innerColor": [255,255,255]
+	},
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+	{
+		"name": "Noxus",
+		"leaderName": "Jericho Swain",
+		"adjective": ["Noxian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"startIntroPart1": ""
+		"startIntroPart2": "",
+		
+		"declaringWar": "Noxus will rise.",
+		"attacked": "Fame has gone to your head, and found ample room within.",
+		"defeated": "Destiny marches, like any man.",
+		"introduction": "You stand in the land of Noxus. Today you may fight with us, tomorrow you fight for us.",
+		
+		"neutralHello": "How may you serve Noxus?",
+		"neutralLetsHearIt": ["Proceed.","You stretch my patience.","You may begin."],
+		"neutralNo": ["Bring it up with Darius.","I laugh at the offer.","I'd consider... if you joined our ranks."],
+		"neutralYes": ["Congratulations. You've gained the favor of Noxus.","Yes... for now.","I accept. Maybe you could join our army..."],
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"hateHello": "May Noxus have mercy on you.",
+		"hateLetsHearIt": ["I will not ask again; speak.","What say you?","Be weary with your next words."],
+		"hateNo": ["You are pushing the boundaries.","The mind is a weapon, and you are unarmed.","Fool."],
+		"hateYes": ["Fine. Be careful with how you proceed.","I tentatively accept."],
+		
+		"afterPeace": "This is not the last you will hear of Noxus. Pray we don't find reason to have your land.",
+		"tradeRequest": "Accept this deal, or else fear the wrath of Noxus.",
+
+		"outerColor": [0,0,0],
+		"innerColor": [112,13,13],
+		"uniqueName": ["Noxian Might"]
+		"unique": ["[+1 Production] from each city","Double quantity of [Wine] produced","Free [Great General] appears <upon discovering [Iron Working]>"]
+		"cities": ["The Immortal Bastion","Drugne","Delverhold","Kimir","Morrin","Urtis","Bloodcliffs","Drakkengate","Drekan","Khom","Khworez","Blackrock Mere","Fenrath","Glorft","Kilgrove","Trevale","Hvardis","Fallgren","Basilich","Ironwater","Krexor","Trannit","Vindor","Rokrund","Qualthala"]
+		"spyNames": ["Kled","Leblanc","Samira","Briar","Sion","Talon","Katarina","Draven","Cassiopeia","Rell"]
+	},
+	{
+		"name": "Demacia",
+		"leaderName": "Jarvan IV",
+		"adjective": ["Demacian"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Demacia!!",
+		"attacked": "You dare damage our petricite? You shall pay the price - in blood.",
+		"defeated": "This must be the work of mages.",
+		"introduction": "It seems you've been cleared by the mageseekers, it is nice to make your acquaintance.",
+		
+		"neutralHello": "Welcome to Demacia.",
+		"neutralLetsHearIt": ["Speak to Garen, then I may listen.","My father may have declined such deals, but I will listen. Go on."],
+		"neutralNo": ["Sounds like the ideas of Noxus. The answer is no."],
+		"neutralYes": ["Hmm.. fine.","Demacia accepts."],
+
+		"hateHello": "Ally of mages, what do you want?",
+		"hateLetsHearIt": ["Make your statement. Now.","Against my better judgement, I shall listen. Speak"],
+		"hateNo": ["I scowl at the thought, Demacia will not forget this."],
+		"hateYes": ["Hmph. Garen says to accept, but I disagree. Fine, but do not test my patience."],
+		
+		"afterPeace": "You have been spared from the strength of Demacia.",
+		"tradeRequest": "I believe we can make a deal.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [255,215,0],
+		"uniqueName": ["Petricite Titans"],		
+		"unique": "[+1 Production] from each city","Double quantity of [Marble] produced","Free [Great Merchant] appears <upon discovering [masonry]>",
+		"cities": ["The Great City of Demacia","Fossbarrow","High Silvermere","Petricite Grove","Uwendale","Zeffra","Cloudfield","Everpeak","Meltridge","Graygate","Paisfield","Evenmoor","Vaskasia","Jandelle","Terbisia","Needlebrook","Wrenwall","Ehrenmount","Edessa","Lissus","Pinara","Velorus","Dawnhold"],
+      	 	"spyNames": ["Garen","Fiora","Leblanc?","Kayle","Galio","Vayne","Lucian","Lux","Shyvana","Quinn","Xin Zhao"]
 	}
+
 ]
